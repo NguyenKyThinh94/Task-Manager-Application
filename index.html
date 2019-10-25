@@ -11,6 +11,25 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-      
+      <div class="container mt-5 ">
+          <div class="row">
+              <div class="col-md-4 bg-light">
+                    <h3>Task Manager </h3>
+                    <div class="form-group">
+                      <label for="task">Task</label>
+                      <input type="text" class="form-control" name="" id="task" aria-describedby="helpId" placeholder="">
+                      <small id="helpId" class="form-text text-muted">Help text</small>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="add">Add Task</button>
+                    <button type="button" class="btn btn-primary" id="reset">Reser All</button>
+              </div>
+              <div class="col-md-2 bg-light">
+                  <div id="ouput">
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
   </body>
 </html>
